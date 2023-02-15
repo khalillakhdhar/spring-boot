@@ -49,7 +49,12 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+<repositories>
+    <repository>
+        <id>projectlombok.org</id>
+        <url>http://projectlombok.org/mavenrepo</url>
+    </repository>
+</repositories>
 	<build>
 		<plugins>
 			<plugin>
